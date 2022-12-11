@@ -13,8 +13,9 @@ def find_slope_m(m, c):
   y = "y = {0}x + {1}".format(m, c);
   return y
 
-def get_digit(number, n):
-  return number // 10**n % 10
+def predict(b0, b1, x):
+  y_predict = b0 + (b1 * x)
+  return "%.2f" % y_predict
 
 def sim_linear_table(x, y):
   len_x = len(x)
@@ -59,4 +60,5 @@ def sim_linear_table(x, y):
 x = [2, 4, 6, 8, 10, 12]
 y = [6, 10, 11, 14, 22, 25]
 
-print(sim_linear_table(x, y))
+b = sim_linear_table(x, y)
+print(predict(b[0], b[1], 5))
