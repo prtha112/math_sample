@@ -88,3 +88,5 @@ predicts = predict(b[0], b[1], 10)
 score = sim_linear_score(x, y, b[0], b[1])
 print(predicts)
 print(score)
+# Predict : 20.409523809523808
+# R-Squared Score : 0.9453843453843453
