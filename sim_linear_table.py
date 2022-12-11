@@ -62,3 +62,4 @@ y = [6, 10, 11, 14, 22, 25]
 
 b = sim_linear_table(x, y)
 print(predict(b[0], b[1], 5))
+# Result : 10.84
