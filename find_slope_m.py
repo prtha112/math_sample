@@ -1,3 +1,5 @@
+# https://tuenongfree.xyz/%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%87/
+
 def find_y_intercept(x, y):
   # c = y - 2x
   c = y - (2 * x)
