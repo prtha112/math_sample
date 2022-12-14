@@ -1,1 +1,1 @@
-# math_learning
+# math_ai
