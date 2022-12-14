@@ -24,3 +24,6 @@ print(f'Matrix Product of arr1 and arr2 is:\n{arr_result}')
 
 arr_result = np.matmul(arr2, arr1)
 print(f'Matrix Product of arr2 and arr1 is:\n{arr_result}')
+
+arr_result = np.divide(arr1, arr2)
+print(f'Matrix Product of arr1 and arr2 is:\n{arr_result}')
