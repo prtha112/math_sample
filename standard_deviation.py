@@ -1,3 +1,4 @@
+# Link : https://www.mathsisfun.com/data/standard-deviation.html
 number = [600,470,170,430,300] 
 
 def variance(number):
