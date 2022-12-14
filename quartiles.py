@@ -1,3 +1,4 @@
+# Credit openai chatcgt
 def quartiles(numbers):
     numbers.sort()
     n = len(numbers)
