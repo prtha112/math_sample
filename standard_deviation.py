@@ -1,4 +1,3 @@
-import math
 number = [600,470,170,430,300] 
 
 def variance(number):
@@ -14,7 +13,8 @@ def variance(number):
     return sum_variance
     
 def standardDeviation(number):
-    return math.sqrt(number)
+    # square root
+    return number**(1/2)
     
 print(variance(number))
 print(standardDeviation(variance(number)))
